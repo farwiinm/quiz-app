@@ -1,0 +1,140 @@
+@font-face {
+    font-family: strangerThings;
+    src: url(benguait.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(232, 229, 48);
+    font-family: strangerThings;
+}
+
+:root {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://images3.alphacoders.com/882/882548.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+audio {
+    justify-content: left;
+    /* margin-bottom: 650px;
+    margin-left: -100px; */
+    background-color: darkred;
+    border: none;
+    width: 180px;
+    height: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: darkred;
+}
+
+
+.quiz-card {
+    width: 600px;
+    height: 300px;
+    max-width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    line-height: 100px;
+}
+
+#on-start {
+    text-align: center;
+}
+
+.question-timer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.question-number {
+    padding-top: 7px;
+}
+
+.timer {
+    background-color: black;
+    border: 3px solid red;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+}
+
+.question {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: medium;
+    text-align: left;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    column-gap: 80px;
+    row-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.answer {
+    font-size: 12px;
+}
+
+.quit {
+    margin-bottom: 7px;
+    margin-left: 210px;
+}
+
+.hide {
+    display: none;
+}
+
+.result {
+    line-height: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.try-again {
+    margin-top: 30px;
+    /* margin-left: 50px; */
+}
+
+#the-end {
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(238, 212, 212);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(255, 0, 0, 0.7122199221485469) 100%);
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}

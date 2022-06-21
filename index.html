@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- <audio controls autoplay loop>
+        <source src="stranger-things-theme-song.mp3">
+    </audio> -->
+
+    <div class="quiz-card">
+        <div id="on-start">
+            <div class="intro">How well do you know Stranger Things?</div>
+            <button class="start" id="start-btn">Start</button>
+        </div>
+
+        <div id="after-start" class='hide'>
+            <div class="question-timer" id='question'>
+                <div class="question-number"></div>
+                <!-- <div class="timer"></div> -->
+            </div>
+            <div class="question">Which actor plays Steve Harrington?</div>
+            <div class="answers" id="answers">
+                <!-- <button class="answer">hi</button>
+                <button class="answer">there</button>
+                <button class="answer">sweety</button>
+                <button class="answer">hehe</button> -->
+            </div>
+            <button class="quit">Quit</button>
+        </div>
+        <div id="the-end" class="hide">
+            <h5 class="result">
+                <div class="score"></div>
+                <div class="message"></div>
+            </h5>
+            <button class="try-again">Try again</button>
+        </div>
+    </div>
+
+    <script src="script-2.js"></script>
+</body>
+
+</html>
